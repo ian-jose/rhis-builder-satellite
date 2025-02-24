@@ -11,7 +11,7 @@
   loop: "{{ redhat_manifests }}"
   loop_control:
     loop_var: redhat_manifest
-  when: "redhat_manifests is defined"
+#  when: "redhat_manifests is defined"
   tags:
     - tags_rhisam
     - tags_user
